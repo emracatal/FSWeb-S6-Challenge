@@ -33,9 +33,8 @@ const App = () => {
   return (
     <div className="App">
       <h1 className="Header">STAR WARS CHARACTERS</h1>
-      <Karakter character />
       {characters.map((character) => {
-        return <div>{character.name} </div>;
+        return <Karakter character={character} />;
       })}
     </div>
   );
