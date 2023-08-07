@@ -13,10 +13,3 @@ const Karakter = ({ character }) => {
 };
 
 export default Karakter;
-
-/* const [show, setShow] = useState(false);
-const handleOpen = () => {
-    setShow(!show); // Toggle accordion
-  };
-
-  onClick={handleOpen} */

@@ -7,7 +7,11 @@ const Akordiyon = ({ character }) => {
     setShow(!show); // Toggle accordion
   };
   return (
-    <div class="accordion" onClick={handleOpen} id="accordionExample">
+    <div
+      class="accordion text-black"
+      onClick={handleOpen}
+      id="accordionExample"
+    >
       <div class="accordion-item bg-transparent text-black">
         <h2 class="accordion-header bg-transparent text-black" id="headingOne">
           <button
@@ -30,7 +34,7 @@ const Akordiyon = ({ character }) => {
           {show ? (
             ""
           ) : (
-            <div class="accordion-body">
+            <div class="accordion-body ">
               <ul>
                 <li>Gender: {character.gender}</li>
                 <li>Height: {character.height}</li>
