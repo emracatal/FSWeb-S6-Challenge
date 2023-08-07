@@ -1,5 +1,6 @@
 import React from "react";
 import Karakter from "./components/Karakter";
+
 import { useState, useEffect } from "react";
 import axios from "axios";
 
@@ -32,7 +33,8 @@ const App = () => {
 
   return (
     <div className="App">
-      <h1 className="Header">STAR WARS CHARACTERS</h1>
+      <h1 className="Search">!!Search buraya!!</h1>
+      <h1 className="Header">Star Wars Major Characters List</h1>
       {characters.map((character) => {
         return <Karakter character={character} />;
       })}

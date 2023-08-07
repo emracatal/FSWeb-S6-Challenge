@@ -2,12 +2,13 @@
 
 .App {
   text-align: center;
+  margin: 0 30%;
 }
-.Header {
+.Header,
+.Search {
+  text-align: center;
   color: #443e3e;
   text-shadow: 1px 1px 5px #fff;
+  font-size: 24px;
 }
 /* write your parent styles in here for your App.js */
-h1 {
-  font-size: 40px;
-}
